@@ -25,7 +25,7 @@ The set of points $S=\{x\in\mathbb R^2: \|x\|\le 1\}$.
 
 #### Weighted norm
 
-If $W$ is **nonsingular** matrix ($\Leftrightarrow$ invertible $\Leftrightarrow \det W=0$), $\|x\|_W = \|Wx\|$ is a matrix norm.
+If $W$ is **nonsingular** matrix ($\Leftrightarrow$ invertible $\Leftrightarrow \det W\neq0$), $\|x\|_W = \|Wx\|$ is a matrix norm.
 
 **Theorem 1**: all norms on $\mathbb C^n$ are equivalent.
 
@@ -97,6 +97,13 @@ And $\|A\|_{(\infty,\infty)} \ge \max_{i=1,...n}\sum_{j=1}^n|a_{ij}|$.
 
 Thus $\|A\|_{(\infty,\infty)} = \max_{i=1,...n}\sum_{j=1}^n|a_{ij}|$.
 
+#### $p-$ induced norm
+
+In particular, if the p-norm for vectors $(1 ≤ p ≤ ∞)$ is used for both spaces $K^n$ and $K^m$, then the corresponding induced operator norm is:
+$$
+\|A\|_p = \sup_{x\neq 0} \frac{\|Ax\|_p}{\|x\|_p}
+$$
+
 #### Frobenius norm <span style='color:red'> is not vector induced</span>
 
 $$
@@ -123,3 +130,11 @@ $$
 
 
 
+
+
+
+-0.98 0.12 -8
+
+
+
+6 2 6

@@ -160,5 +160,20 @@ $$
 >
 > $\left<x, A^*Ax\right> = \left<Q^*x, \Lambda Q^*x\right>$. Denote $y=Q^*x$.
 > $$
-> \|A\|_2 = \sup_{x\neq 0}\sqrt{\frac{\left<Q^*x, \Lambda Q^*x\right>}{\left<Q^*x,Q^*x\right>}} = \sup_{x\neq 0}\sqrt{\frac{\left<y, \Lambda y\right>}{\left<y,y\right>}} = \sup_{y\neq 0}\sqrt{\frac{\left<\sum_{j=1}^n\lambda_j|y_j|^2\right>}{\sum_{j=1}^n|y_j|^2}} = \sqrt{\max_{j=1, ...n}\lambda_j}
+> \|A\|_2 = \sup_{x\neq 0}\sqrt{\frac{\left<Q^*x, \Lambda Q^*x\right>}{\left<Q^*x,Q^*x\right>}} = \sup_{x\neq 0}\sqrt{\frac{\left<y, \Lambda y\right>}{\left<y,y\right>}} = \sup_{y\neq 0}\sqrt{\frac{\left<\sum_{j=1}^n\lambda_j|y_j|^2\right>}{\sum_{j=1}^n|y_j|^2}} = \sqrt{\max_{j=1, ...n}\lambda_j(A^*A)} = \sqrt{\rho(A^*A)}
 > $$
+
+If $\|\cdot\|$ is any **vector induced matrix norm**, $\forall k\in \mathbb Z^+$, 
+$$
+\rho(A)\le \|A^k\|^{1/k}\le\|A\|
+$$
+In general, $\rho(A) \neq \|A\|_2$, but the equality holds when $A$ is **normal** ($A=Q\Lambda Q^*$):
+
+**Theorem 7**
+
+If $A\in \mathbb C^{n\times n}$ is **normal**, $\forall k\in \mathbb Z^+$, 
+$$
+\rho(A)\le \|A^k\|_2^{1/k}\le\|A\|_2
+$$
+
+
