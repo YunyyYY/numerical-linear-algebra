@@ -21,7 +21,7 @@ For example:
 
 The set of points $S=\{x\in\mathbb R^2: \|x\|\le 1\}$.
 
-<img src='c2_unit_ball.png' width=500>
+<img src='additional/c2_unit_ball.png' width=500>
 
 #### Weighted norm
 
