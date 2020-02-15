@@ -79,18 +79,6 @@ In general projector is not invertible and has **non-trivial null space**.
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 For example, for overdetermined $m\ge n$, $u_i^*$ is the $i$ **column** of $U^*$,
 $$
 \left(\begin{matrix}
