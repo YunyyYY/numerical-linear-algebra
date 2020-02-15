@@ -131,7 +131,7 @@ Householder transform can be used to introduce zeroes below the diagonal, column
 
 INPUT: $A\in\C^{m\times n}$
 
-FOR $k=1, ... m$ DO
+FOR $k=1, ... n$ DO
 
 ​	$x = A(k:m, k)$
 
