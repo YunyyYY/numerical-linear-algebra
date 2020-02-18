@@ -1,4 +1,4 @@
 *.DS_Store
 
-lecture_notes/*.md
+*.md
 *.ipynb_checkpoints*
