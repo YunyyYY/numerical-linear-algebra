@@ -1,4 +1,4 @@
-# Chapter 6 QR factorization
+# Chapter 6 QR Factorization
 
 ### 1. Definition of QR
 

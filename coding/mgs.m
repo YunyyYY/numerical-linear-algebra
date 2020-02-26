@@ -1,5 +1,5 @@
 function  [Q, R] = mgs(A)
-% Modified Gram–Schmidt
+% Modified Gram–Schmidt, reduced QR
     [m, n] = size(A);
     Q = zeros(m, n);
     R = zeros(n, n);
